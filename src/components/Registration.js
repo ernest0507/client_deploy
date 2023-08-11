@@ -28,7 +28,7 @@ export default function Registration() {
 
   
   const onSubmit = (data) => {
-    axios.post('http://localhost:8800/auth/', data).then((response) => {
+    axios.post('http://62.113.100.248:8800/auth/', data).then((response) => {
       
 
       if (response.data.status) {
