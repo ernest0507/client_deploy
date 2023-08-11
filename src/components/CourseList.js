@@ -7,7 +7,7 @@ export default function CourseMaterial() {
   let navigate = useNavigate()
 
   useEffect(() => {
-    axios.get('http://localhost:8800/link').then((response) => {
+    axios.get('http://62.113.100.248:8800/link').then((response) => {
       setList(response.data)
     })
   }, [])
