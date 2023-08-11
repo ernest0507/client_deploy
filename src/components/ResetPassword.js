@@ -22,7 +22,7 @@ export default function ResetPassword() {
     }); 
 
     const onSubmit = (data) => {
-        axios.post('http://localhost:8800/reset', data).then((response) => {
+        axios.post('http://62.113.100.248:8800/reset', data).then((response) => {
         
 
         if (response.data.status) {
